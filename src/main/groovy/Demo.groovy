@@ -1,9 +1,6 @@
-@Grapes([
-        @Grab("org.gebish:geb-core:3.4"),
-        @Grab("org.seleniumhq.selenium:selenium-firefox-driver:3.141.59"),
-        @Grab("org.seleniumhq.selenium:selenium-support:3.141.59")
-])
 import geb.Browser
+
+System.setProperty("webdriver.gecko.driver", "/Users/zhb/Develop/geckodriver/geckodriver")
 
 
 Browser.drive {
